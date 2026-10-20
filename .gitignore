@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.tanstack/
+.user-memory.json
+.sessions-memory.json
+*.log
+.DS_Store

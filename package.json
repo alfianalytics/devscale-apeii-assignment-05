@@ -1,0 +1,14 @@
+{
+  "name": "devscale-apeii-assignment-05",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.24.0",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "dev:api": "pnpm --filter @repo/api run dev",
+    "dev:web": "pnpm --filter @repo/web run dev",
+    "build": "pnpm -r run build",
+    "db:emit": "pnpm --filter @repo/db run contract:emit",
+    "db:update": "pnpm --filter @repo/db run db:update"
+  }
+}
